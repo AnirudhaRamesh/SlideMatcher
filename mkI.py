@@ -1,21 +1,39 @@
 import numpy as np
 import cv2 as cv
 import matplotlib.pyplot as plt
+from os import listdir
+from os.path import isfile, join
+
+
 img_array = [] 
 truth_array = []
-truth_array.append(cv.imread('sample_test/slides/ppt1.jpg',cv.IMREAD_GRAYSCALE)) # trainImage
-truth_array.append(cv.imread('sample_test/slides/ppt2.jpg',cv.IMREAD_GRAYSCALE)) 
 
-for i in range(0,10):
-    img_path = 'sample_test/frames/'+str(i)+'.jpg'
-    img_array.append(cv.imread(img_path,cv.IMREAD_GRAYSCALE))      # queryImage
+mypath_1 = 'sample_test/slides/'  
+onlyfiles_slides = [f for f in listdir(mypath_1) if isfile(join(mypath_1, f))]
+onlyfiles_slides.sort()
+
+mypath_2 = 'sample_test/frames/'  
+onlyfiles_frames = [f for f in listdir(mypath_2) if isfile(join(mypath_2, f))]
+onlyfiles_frames.sort()
+
+for i in onlyfiles_slides:
+    file_name = mypath_1 + i 
+    truth_array.append(cv.imread(file_name,cv.IMREAD_GRAYSCALE)) # trainImage
+
+truth_array_len = len(truth_array)
+
+for i in onlyfiles_frames:
+    file_name = mypath_2 + i 
+    img_array.append(cv.imread(file_name,cv.IMREAD_GRAYSCALE))      # queryImage
+
+img_array_len = len(img_array)
 
 # Initiate SIFT detector and BFMatcher 
 sift = cv.xfeatures2d.SIFT_create()
 bf = cv.BFMatcher()
 # find the keypoints and descriptors with SIFT
 SIFT_features_array =  []  
-for l in range(0,len(truth_array)):
+for l in range(0,truth_array_len):
     temp_holder, temp_features = sift.detectAndCompute(truth_array[l],None)
     SIFT_features_array.append(temp_features)
 
@@ -24,10 +42,10 @@ for l in range(0,len(truth_array)):
 # kp2, des2 = sift.detectAndCompute(img2,None)
 # BFMatcher with default params
 
-for i in range(0,10) :
+for i in range(0,img_array_len) :
     max_good_count = [-1,-1]
     kp2, des2 = sift.detectAndCompute(img_array[i],None)
-    for l in range(0,len(truth_array)) :
+    for l in range(0,truth_array_len) :
         temp = SIFT_features_array[l]
         matches = bf.knnMatch(temp,des2,k=2)
         # Apply ratio test
@@ -42,6 +60,6 @@ for i in range(0,10) :
 # plt.imshow(img3),plt.show()
         if max_good_count[1] < good_count :
             max_good_count[1] = good_count
-            max_good_count[0] = l
+            max_good_count[0] = onlyfiles_slides[l]
 
-    print("BEST MATCH FOR IMG", i, "IS ", max_good_count)
+    print(onlyfiles_frames[i], max_good_count)
