@@ -5,6 +5,22 @@ from os import listdir
 from os.path import isfile, join
 
 
+
+def check(i, max_good_count) :
+    """ Function to check internally of accuracy """ 
+    folder_number = onlyfiles_frames[i] ; 
+    folder_number = folder_number.split('_')
+    folder_number = folder_number[0]
+    answered_number =  max_good_count[0] 
+    answered_number =  answered_number.split('_')
+    answered_number = answered_number[1] 
+    if folder_number == answered_number : 
+        total_correct += 1 
+
+    return 
+
+
+
 img_array = [] 
 truth_array = []
 total_correct = 0 
@@ -69,16 +85,5 @@ for i in range(0,img_array_len) :
     check(i, max_good_count)
 
 print("Accuracy = ", (total_correct*100)/img_array_len)
-
-
-
-def check(i, max_good_count) :
-    """ Function to check internally of accuracy """ 
-    folder_number = onlyfiles_frames[i][0] ; 
-    answered_number =  max_good_count[0][4] ; 
-    if folder_number == answered_number : 
-        total_correct += 1 
-
-    return 
 
 
