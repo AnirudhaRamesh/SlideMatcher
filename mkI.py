@@ -24,7 +24,7 @@
 import numpy as np
 import cv2 as cv
 import matplotlib.pyplot as plt
-img1 = cv.imread('0.jpg',cv.IMREAD_GRAYSCALE)          # queryImage
+img1 = cv.imread('4.jpg',cv.IMREAD_GRAYSCALE)          # queryImage
 img2 = cv.imread('ppt.jpg',cv.IMREAD_GRAYSCALE) # trainImage
 # Initiate SIFT detector
 sift = cv.xfeatures2d.SIFT_create()
@@ -36,9 +36,13 @@ bf = cv.BFMatcher()
 matches = bf.knnMatch(des1,des2,k=2)
 # Apply ratio test
 good = []
+good_count = 0 
 for m,n in matches:
     if m.distance < 0.75*n.distance:
         good.append([m])
+        good_count += 1
 # cv.drawMatchesKnn expects list of lists as matches.
 img3 = cv.drawMatchesKnn(img1,kp1,img2,kp2,good,None,flags=cv.DrawMatchesFlags_NOT_DRAW_SINGLE_POINTS)
 plt.imshow(img3),plt.show()
+print(good[0])
+print(good_count)
