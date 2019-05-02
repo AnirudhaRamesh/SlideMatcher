@@ -310,5 +310,3 @@ SIFT()
 
 # Initiate SIFT detector and BFMatcher 
 print("Accuracy = ", (total_correct*100)/25)
-
-
