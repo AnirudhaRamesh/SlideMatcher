@@ -16,7 +16,8 @@ def check(i, max_good_count) :
     answered_number = answered_number[1] 
     if folder_number == answered_number : 
         total_correct += 1 
-
+    else:
+        print('wrong answer')
     return 
 
 
