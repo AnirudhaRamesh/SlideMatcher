@@ -1,0 +1,207 @@
+Now checking for image in:Dataset_test/02_17/3.jpg
+Best fit for this is inDataset/02_17/ppt.jpg
+
+Now checking for image in:Dataset_test/02_17/4.jpg
+Best fit for this is inDataset/02_17/ppt.jpg
+
+Now checking for image in:Dataset_test/02_17/0.jpg
+Best fit for this is inDataset/02_17/ppt.jpg
+
+Now checking for image in:Dataset_test/03_29/0.jpg
+Best fit for this is inDataset/03_28/ppt.jpg
+
+Now checking for image in:Dataset_test/03_29/1.jpg
+Best fit for this is inDataset/03_28/ppt.jpg
+
+Now checking for image in:Dataset_test/12_7/3.jpg
+Best fit for this is inDataset/12_7/ppt.jpg
+
+Now checking for image in:Dataset_test/12_7/1.jpg
+Best fit for this is inDataset/12_7/ppt.jpg
+
+Now checking for image in:Dataset_test/02_4/3.jpg
+Best fit for this is inDataset/02_4/ppt.jpg
+
+Now checking for image in:Dataset_test/02_4/1.jpg
+Best fit for this is inDataset/02_4/ppt.jpg
+
+Now checking for image in:Dataset_test/02_16/8.jpg
+Best fit for this is inDataset/02_16/ppt.jpg
+
+Now checking for image in:Dataset_test/02_16/7.jpg
+Best fit for this is inDataset/02_16/ppt.jpg
+
+Now checking for image in:Dataset_test/09_28/2.jpg
+Best fit for this is inDataset/09_28/ppt.jpg
+
+Now checking for image in:Dataset_test/09_28/0.jpg
+Best fit for this is inDataset/09_28/ppt.jpg
+
+Now checking for image in:Dataset_test/09_28/1.jpg
+Best fit for this is inDataset/09_28/ppt.jpg
+
+Now checking for image in:Dataset_test/12_10/2.jpg
+Best fit for this is inDataset/12_10/ppt.jpg
+
+Now checking for image in:Dataset_test/12_10/0.jpg
+Best fit for this is inDataset/12_10/ppt.jpg
+
+Now checking for image in:Dataset_test/12_10/1.jpg
+Best fit for this is inDataset/12_10/ppt.jpg
+
+Now checking for image in:Dataset_test/09_0/0.jpg
+Best fit for this is inDataset/09_0/ppt.jpg
+
+Now checking for image in:Dataset_test/09_0/1.jpg
+Best fit for this is inDataset/09_0/ppt.jpg
+
+Now checking for image in:Dataset_test/03_17/4.jpg
+Best fit for this is inDataset/03_17/ppt.jpg
+
+Now checking for image in:Dataset_test/03_17/0.jpg
+Best fit for this is inDataset/03_17/ppt.jpg
+
+Now checking for image in:Dataset_test/03_17/1.jpg
+Best fit for this is inDataset/03_17/ppt.jpg
+
+Now checking for image in:Dataset_test/02_2/0.jpg
+Best fit for this is inDataset/02_2/ppt.jpg
+
+Now checking for image in:Dataset_test/02_2/1.jpg
+Best fit for this is inDataset/02_2/ppt.jpg
+
+Now checking for image in:Dataset_test/12_11/3.jpg
+Best fit for this is inDataset/12_11/ppt.jpg
+
+Now checking for image in:Dataset_test/12_11/2.jpg
+Best fit for this is inDataset/12_11/ppt.jpg
+
+Now checking for image in:Dataset_test/12_11/0.jpg
+Best fit for this is inDataset/12_11/ppt.jpg
+
+Now checking for image in:Dataset_test/12_11/1.jpg
+Best fit for this is inDataset/12_11/ppt.jpg
+
+Now checking for image in:Dataset_test/08_20/2.jpg
+Best fit for this is inDataset/09_32/ppt.jpg
+
+Now checking for image in:Dataset_test/08_20/1.jpg
+Best fit for this is inDataset/08_20/ppt.jpg
+
+Now checking for image in:Dataset_test/09_7/4.jpg
+Best fit for this is inDataset/08_14/ppt.jpg
+
+Now checking for image in:Dataset_test/09_7/0.jpg
+Best fit for this is inDataset/09_7/ppt.jpg
+
+Now checking for image in:Dataset_test/09_7/1.jpg
+Best fit for this is inDataset/08_15/ppt.jpg
+
+Now checking for image in:Dataset_test/09_11/2.jpg
+Best fit for this is inDataset/09_11/ppt.jpg
+
+Now checking for image in:Dataset_test/09_11/1.jpg
+Best fit for this is inDataset/09_11/ppt.jpg
+
+Now checking for image in:Dataset_test/09_6/3.jpg
+Best fit for this is inDataset/09_6/ppt.jpg
+
+Now checking for image in:Dataset_test/09_6/2.jpg
+Best fit for this is inDataset/09_6/ppt.jpg
+
+Now checking for image in:Dataset_test/08_0/3.jpg
+Best fit for this is inDataset/08_0/ppt.jpg
+
+Now checking for image in:Dataset_test/08_0/4.jpg
+Best fit for this is inDataset/08_0/ppt.jpg
+
+Now checking for image in:Dataset_test/08_0/2.jpg
+Best fit for this is inDataset/08_0/ppt.jpg
+
+Now checking for image in:Dataset_test/08_15/0.jpg
+Best fit for this is inDataset/08_15/ppt.jpg
+
+Now checking for image in:Dataset_test/08_15/1.jpg
+Best fit for this is inDataset/08_15/ppt.jpg
+
+Now checking for image in:Dataset_test/09_5/3.jpg
+Best fit for this is inDataset/09_5/ppt.jpg
+
+Now checking for image in:Dataset_test/09_5/4.jpg
+Best fit for this is inDataset/09_5/ppt.jpg
+
+Now checking for image in:Dataset_test/08_17/0.jpg
+Best fit for this is inDataset/08_17/ppt.jpg
+
+Now checking for image in:Dataset_test/08_6/3.jpg
+Best fit for this is inDataset/09_4/ppt.jpg
+
+Now checking for image in:Dataset_test/02_44/3.jpg
+Best fit for this is inDataset/02_44/ppt.jpg
+
+Now checking for image in:Dataset_test/02_44/4.jpg
+Best fit for this is inDataset/02_44/ppt.jpg
+
+Now checking for image in:Dataset_test/12_8/0.jpg
+Best fit for this is inDataset/12_8/ppt.jpg
+
+Now checking for image in:Dataset_test/12_8/1.jpg
+Best fit for this is inDataset/12_8/ppt.jpg
+
+Now checking for image in:Dataset_test/12_9/4.jpg
+Best fit for this is inDataset/12_9/ppt.jpg
+
+Now checking for image in:Dataset_test/12_9/1.jpg
+Best fit for this is inDataset/12_9/ppt.jpg
+
+Now checking for image in:Dataset_test/09_8/0.jpg
+Best fit for this is inDataset/09_8/ppt.jpg
+
+Now checking for image in:Dataset_test/09_8/1.jpg
+Best fit for this is inDataset/09_8/ppt.jpg
+
+Now checking for image in:Dataset_test/09_9/3.jpg
+Best fit for this is inDataset/09_9/ppt.jpg
+
+Now checking for image in:Dataset_test/09_9/5.jpg
+Best fit for this is inDataset/08_18/ppt.jpg
+
+Now checking for image in:Dataset_test/09_9/4.jpg
+Best fit for this is inDataset/09_9/ppt.jpg
+
+Now checking for image in:Dataset_test/08_18/0.jpg
+Best fit for this is inDataset/08_18/ppt.jpg
+
+Now checking for image in:Dataset_test/08_18/1.jpg
+Best fit for this is inDataset/08_18/ppt.jpg
+
+Now checking for image in:Dataset_test/08_5/0.jpg
+Best fit for this is inDataset/08_5/ppt.jpg
+
+Now checking for image in:Dataset_test/08_5/1.jpg
+Best fit for this is inDataset/09_1/ppt.jpg
+
+Now checking for image in:Dataset_test/03_28/3.jpg
+Best fit for this is inDataset/03_28/ppt.jpg
+
+Now checking for image in:Dataset_test/03_28/2.jpg
+Best fit for this is inDataset/03_28/ppt.jpg
+
+Now checking for image in:Dataset_test/03_28/1.jpg
+Best fit for this is inDataset/03_28/ppt.jpg
+
+Now checking for image in:Dataset_test/08_16/3.jpg
+Best fit for this is inDataset/08_16/ppt.jpg
+
+Now checking for image in:Dataset_test/08_16/4.jpg
+Best fit for this is inDataset/08_16/ppt.jpg
+
+Now checking for image in:Dataset_test/08_4/4.jpg
+Best fit for this is inDataset/08_4/ppt.jpg
+
+Now checking for image in:Dataset_test/08_4/8.jpg
+Best fit for this is inDataset/08_4/ppt.jpg
+
+Now checking for image in:Dataset_test/08_4/7.jpg
+Best fit for this is inDataset/08_4/ppt.jpg
+
